@@ -104,7 +104,7 @@ I believe that joining these communities is beneficial, but I also recognize tha
           description="Ini Project Menggunakan HTML dan CSS Dari Project Ini Banyak Belajar"
           imageUrl="https://github.com/bamaamamiya/Surah.github.io/blob/36a46706e6621961d4a0f838d3acb9e03eb71a26/surah.png?raw=true"
           websiteUrl="https://bamaamamiya.github.io/Surah.github.io/"/>
-          <ProjectCard title="Surah" 
+          <ProjectCard title="Portofolio React Js" 
           description="Ini Project Menggunakan React js dan Tailwind CSS Dari Project Ini Banyak Belajar"
           imageUrl="https://github.com/BaldiMaulana/react-bama/blob/master/Screenshot%202023-09-16%20024851.png?raw=true"
           websiteUrl="https://react-bama.vercel.app/"
