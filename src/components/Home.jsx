@@ -109,6 +109,11 @@ I believe that joining these communities is beneficial, but I also recognize tha
           imageUrl="https://github.com/BaldiMaulana/react-bama/blob/master/thum.png?raw=true"
           websiteUrl="https://react-bama.vercel.app/"
           />
+          <ProjectCard title="Calculator" 
+          description="Ini Project Menggunakan HTML,CSS dan Javascript"
+          imageUrl="https://github.com/BaldiMaulana/calcutator/blob/master/tum.png?raw=true"
+          websiteUrl="https://baldimaulana.github.io/calcutator/"
+          />
         </div>
         </div>   
 
