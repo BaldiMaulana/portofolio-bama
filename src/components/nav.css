@@ -1,0 +1,7 @@
+/* Contoh penyesuaian gaya untuk mode gelap */
+.dark {
+    background-color: #030712; /* Ubah warna latar belakang ke warna gelap */
+    color: #fff; /* Ubah warna teks ke warna terang pada mode gelap */
+    /* Tambahkan penyesuaian gaya lainnya sesuai kebutuhan Anda */
+  }
+  

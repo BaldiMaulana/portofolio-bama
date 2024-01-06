@@ -10,10 +10,15 @@ import ProjectCard from './ProjectCard';
 import Footer from "./Footer";
 
 
+
 function Home() {
+
+
+
 return (
-    <div className="h-full ">
-    <div className="sm:flex justify-center mt-60 ">
+    <div className="h-full grid grid-flow-row">
+      <div className="h-screen items-center mt-[100px]">
+    <div className="sm:flex justify-center  ">
         <img src="./images/profil.jpg" alt="Profil" className="sm:w-80 rounded-full flex justify-center"  />
         <div className="w-auto mt-[100px] ml-2">
         <p className="text-center text-primary ">Hello, im</p>
@@ -24,7 +29,7 @@ return (
   href="/path/to/my_cv.pdf"
   download="my_cv.pdf"
 >
-  <button className="bg-white border-4 rounded-full border-black p-2 hover:bg-black hover:text-white">
+  <button className="bg-white border-4 rounded-full border-black p-2 hover:bg-black hover:text-white dark:text-black dark:hover:text-white">
     Download CV
   </button>
 </a>
@@ -50,8 +55,9 @@ return (
         </div>
         </div>
     </div>
+      </div>
 
-    <div className="h-screen mt-96 w-full">
+    <div className="h-screen w-full">
         <div className="flex justify-center">
         <h1>Get To Know Me</h1>
         </div>
@@ -67,7 +73,7 @@ return (
 I believe that joining these communities is beneficial, but I also recognize that it's not enough. To further enhance my skills, I aim to transition into the industry. </p>
         <div className="mt-auto ml-10">
         <p>If you want to know more about me, Click the button bellow :</p>
-        <button className="mt-1 rounded-xl text-white bg-black p-4  hover:bg-primary hover:text-white">
+        <button className="mt-1 rounded-xl text-white bg-black p-4  hover:bg-primary hover:text-white dark:bg-white dark:text-black">
             <Link to="/about">About Me</Link>
             </button>
         </div>
@@ -76,17 +82,15 @@ I believe that joining these communities is beneficial, but I also recognize tha
 </div>
 </div>
 
-<div className="bg-gray-50 min-h-screen mt-96 flex items-center justify-center">
+<div className="`bg-white  flex items-center justify-center dark:text-black">
       <div className="border-4 p-10 rounded-lg bg-white">
         <h1 className="text-3xl font-bold text-center mb-8">My Skills</h1>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div className="grid grid-cols-3 gap-2 text-center">
           <SkillCard title="HTML" level="Experienced" />
           <SkillCard title="CSS" level="Experienced" />
           <SkillCard title="JavaScript" level="Basic" />
           <SkillCard title="React Js" level="Basic" />
-          <SkillCard title="PHP" level="Basic" />
           <SkillCard title="Tailwind CSS" level="Experienced" />
-          <SkillCard title="Node JS" level="Basic" />
           <SkillCard title="Github" level="Basic" />
         </div>
       </div>
@@ -99,32 +103,37 @@ I believe that joining these communities is beneficial, but I also recognize tha
         <div className="flex justify-center">
         <h1 className="text-5xl font-bold">Projects</h1>
         </div>
-        <div className="mt-20 h-max">
+        <div className="sm:grid-cols-3 grid-cols-1	grid gap-4 ">
           <ProjectCard title="To Do List" 
-          description="Ini Project Menggunakan HTML,CSS dan Javascript"
+          description="This Project Uses HTML,CSS and Javascript"
           imageUrl="https://github.com/BaldiMaulana/to-dolist/blob/master/thum.png?raw=true"
           websiteUrl="https://baldimaulana.github.io/to-dolist/"/>
           <ProjectCard title="Portofolio React Js" 
-          description="Ini Project Menggunakan React js dan Tailwind CSS Dari Project Ini Banyak Belajar"
+          description="This project uses React js and Tailwind CSS. From this project,i am can learn a lot"
           imageUrl="https://github.com/BaldiMaulana/react-bama/blob/master/ttum.png?raw=true"
           websiteUrl="https://react-bama.vercel.app/"
           />
           <ProjectCard title="Calculator" 
-          description="Ini Project Menggunakan HTML,CSS dan Javascript"
+          description="This Project Uses HTML,CSS and Javascript"
           imageUrl="https://github.com/BaldiMaulana/calcutator/blob/master/tum.png?raw=true"
           websiteUrl="https://baldimaulana.github.io/calcutator/"
           />
           <ProjectCard title="Password Generator" 
-          description="Ini Project Menggunakan HTML,CSS dan Javascript"
+          description="This Project Uses HTML,CSS and Javascript"
           imageUrl="https://github.com/BaldiMaulana/PasswordGenerate/blob/master/tumm.png?raw=true"
           websiteUrl="https://baldimaulana.github.io/PasswordGenerate/"
+          />
+          <ProjectCard title="First Client Law Firm" 
+          description="This my first client project"
+          imageUrl="https://github.com/BaldiMaulana/equitylawfirm/blob/master/ss.png?raw=true"
+          websiteUrl="https://equitylawfirm.vercel.app/"
           />
         </div>
         </div>   
 
 
         
-        <div className="h-full mt-96 w-full">
+        <div className="h-full mt-[50px] w-full">
         <div className="flex justify-center">
         <h1>Get in Touch</h1>
         </div>
