@@ -17,7 +17,7 @@ const Project = () =>{
             websiteUrl="https://baldimaulana.github.io/to-dolist/"/>
             <ProjectCard title="Portofolio React Js" 
             description="This project uses React js and Tailwind CSS. From this project,i am can learn a lot"
-            imageUrl={`./public/images/thum.png`}
+            imageUrl='https://github.com/BaldiMaulana/react-bama/blob/master/public/images/thum.png?raw=true'
             websiteUrl="https://react-bama.vercel.app/"
             />
             <ProjectCard title="Calculator" 
