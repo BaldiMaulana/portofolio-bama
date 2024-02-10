@@ -1,15 +1,42 @@
 import React from "react";
-import Footer from "./Footer";
+import ProjectCard from "./ProjectCard";
 
 const Project = () =>{
     return(
-        <div className="h-full mt-96">
-        <div className="  flex justify-center items-center text-5xl hover:bg-black hover:text-white">
-    <h1 className=" m-5 ">still in the development stage</h1>
+        <div className="m-4">
+            <div className="flex justify-center">
+            <h1>Browse My Recent</h1>
+            </div>
+            <div className="flex justify-center m-2">
+            <h1 className="text-5xl font-bold">Projects</h1>
+            </div>
+            <div className="sm:grid-cols-3 grid-cols-1	grid gap-4 ">
+            <ProjectCard title="To Do List" 
+            description="This Project Uses HTML,CSS and Javascript"
+            imageUrl="https://github.com/BaldiMaulana/to-dolist/blob/master/thum.png?raw=true"
+            websiteUrl="https://baldimaulana.github.io/to-dolist/"/>
+            <ProjectCard title="Portofolio React Js" 
+            description="This project uses React js and Tailwind CSS. From this project,i am can learn a lot"
+            imageUrl={`./public/images/thum.png`}
+            websiteUrl="https://react-bama.vercel.app/"
+            />
+            <ProjectCard title="Calculator" 
+            description="This Project Uses HTML,CSS and Javascript"
+            imageUrl="https://github.com/BaldiMaulana/calcutator/blob/master/tum.png?raw=true"
+            websiteUrl="https://baldimaulana.github.io/calcutator/"
+            />
+            <ProjectCard title="Password Generator" 
+            description="This Project Uses HTML,CSS and Javascript"
+            imageUrl="https://github.com/BaldiMaulana/PasswordGenerate/blob/master/tumm.png?raw=true"
+            websiteUrl="https://baldimaulana.github.io/PasswordGenerate/"
+            />
+            <ProjectCard title="First Client Law Firm" 
+            description="This my first client project"
+            imageUrl="https://github.com/BaldiMaulana/equitylawfirm/blob/master/ss.png?raw=true"
+            websiteUrl="https://equitylawfirm.vercel.app/"
+            />
+            </div>
         </div>
-        <Footer/>
-    </div>
     )
 }
-
 export default Project;

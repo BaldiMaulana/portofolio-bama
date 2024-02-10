@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Footer = () =>{
     return(
-        <div className="h-full">
-        <div className='flex justify-center mt-[50px]'>
-      <ul className='flex gap-4 m-3 text-2xl'>
+        <div className="h-full ">
+        <div className='flex justify-center'>
+      <ul className='flex gap-4 m-3'>
         <li>
           <Link to="/">Home</Link>
         </li>
