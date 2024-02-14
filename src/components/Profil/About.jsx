@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () =>{
     return(
-        <main className=" mt-2 grid grid-flow-row">
+        <main className="mt-20 grid grid-flow-row">
         <div className="h-full w-full">
         <div className="flex justify-center">
         <h1>Get To Know Me</h1>

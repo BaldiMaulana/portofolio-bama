@@ -24,7 +24,7 @@ const Profile = () =>{
   </button>
 </a>
         <button
-  className="bg-black border-4 rounded-full border-black text-white p-2 hover:bg-white hover:text-black"
+  className="bg-black border-4 rounded-full border-black text-white p-2 hover:bg-white hover:text-black dark:border-white"
   onClick={() => {
     const contactElement = document.getElementById("contact");
     if (contactElement) {

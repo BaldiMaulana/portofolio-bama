@@ -13,7 +13,7 @@ const Contact = () =>{
         <h1 className="text-5xl font-bold" id="contact">Contact Me</h1>
         </div>
         <div className="sm:grid justify-center items-center">
-          <div className="gap-4 border-4 rounded-2xl p-2 sm:flex">
+          <div className="gap-4 border-4 rounded-2xl p-2 sm:flex ">
           <a href="mailto:m.baldimaulana@gmail.com" >
           <FontAwesomeIcon icon={faEnvelope} size ="1x"/>  m.baldimaulana@gmail.com</a>
           <a 
