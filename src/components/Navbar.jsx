@@ -1,6 +1,8 @@
 import './nav.css';
 import { Link } from 'react-router-dom';
 import React, { useState,useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMoon,faCloudMoon } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
 
@@ -49,10 +51,12 @@ function Navbar() {
             </li>
             <div className={darkMode ? 'dark' : ''}>
       <button
-        className=" hover:bg-gray-950 hover:text-white  rounded-xl hover:dark:bg-white dark:text-white hover:dark:text-black"
+        className=" hover:bg-gray-950 hover:text-white hover:p-1 rounded-xl hover:dark:bg-white dark:text-white hover:dark:text-black"
         onClick={swapMode}
       >
-        {darkMode ? '⛅' : '🌙'}
+        {darkMode ? <FontAwesomeIcon icon={faCloudMoon}  /> : 
+        
+        <FontAwesomeIcon icon={faMoon} size="lg" flip='horizontal'/>}
       </button>
     </div>
           </ul>

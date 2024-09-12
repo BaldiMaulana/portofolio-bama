@@ -3,9 +3,9 @@ import ReactDOM from "react-dom/client";
 import Navbar from './components/Navbar';
 import About from './components/Profil/About';
 import Contact from './components/Profil/Contact';
-import Project from './components/Project';
+import Project from './components/Project/Project';
 import Home from './components/Home';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 

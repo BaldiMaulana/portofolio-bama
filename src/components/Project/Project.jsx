@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const Project = () =>{
     return(
-        <div className="m-4">
+        <div className="h-full">
             <div className="flex justify-center">
             <h1>Browse My Recent</h1>
             </div>
@@ -40,6 +40,15 @@ const Project = () =>{
             imageUrl='https://github.com/BaldiMaulana/weatherbama/blob/master/weather-app.png?raw=true'
             websiteUrl='https://weatherbama.vercel.app/'
             />
+            <ProjectCard 
+            title="Gym Website"
+            description="Gym Website"
+            imageUrl='https://github.com/BaldiMaulana/gym/blob/master/public/images/gym.jpg?raw=true'
+            websiteUrl='https://gym-harapan.vercel.app/'
+            />
+            </div>
+            <div className="mt-20 text-center">
+                powered by @bama
             </div>
         </div>
     )

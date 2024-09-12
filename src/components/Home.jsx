@@ -1,6 +1,6 @@
 import React from "react";
 
-import Project from "./Project";
+import Project from "./Project/Project";
 import Footer from "./Footer";
 import Profile from "./Profil/Profile";
 import About from "./Profil/About";

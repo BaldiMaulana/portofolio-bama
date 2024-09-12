@@ -5,6 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const Profile = () =>{
+
+  const handleClick = () =>{
+    alert("untuk saat ini tidak dapat mendownload CV Saya Maaf!!!")
+  }
+
     return(
         <div className="h-full grid grid-flow-row">
       <div className="h-screen items-center mt-[100px]">
@@ -15,14 +20,16 @@ const Profile = () =>{
         <h1 className="text-center text-2xl font-bold">Muhammad Baldi Maulana</h1>
         <h1 className="text-center text-2xl font-bold text-primary hover:text-black">FrontEnd Developer</h1>
         <div className="flex justify-center items-center gap-2 mt-2 text-lg">
-        <a
+        {/* <a
   href="/path/to/my_cv.pdf"
   download="my_cv.pdf"
->
-  <button className="bg-white border-4 rounded-full border-black p-2 hover:bg-black hover:text-white dark:text-black dark:hover:text-white">
+> */}
+  <button
+  onClick={handleClick}
+  className="bg-white border-4 rounded-full border-black p-2 hover:bg-black hover:text-white dark:text-black dark:hover:text-white">
     Download CV
   </button>
-</a>
+{/* </a> */}
         <button
   className="bg-black border-4 rounded-full border-black text-white p-2 hover:bg-white hover:text-black dark:border-white"
   onClick={() => {
